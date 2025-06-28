@@ -1,8 +1,10 @@
+import "./Product.css"
+
 function Product(){
     return (
-        <div>
-            <h1>Title</h1>
-            <p>Description</p>
+        <div className="Product">
+            <h1>Product Title</h1>
+            <p>Product Description</p>
         </div>
     );
 }
