@@ -12,7 +12,7 @@ function Description({description, idx}){
 }
 
 
-function Card({title, idx}) {
+function card({title, idx}) {
 
     let oldPrices = ["12,999","13,999","14,000","15,000"];
     let newPrices = ["10,000","12,000","12,000","12,500"];
@@ -33,4 +33,4 @@ function Card({title, idx}) {
     );
 }
 
-export default Card;
+export default card;
